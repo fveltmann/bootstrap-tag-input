@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-tag-input",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/js/index.js",
+  "types": "dist/js",
+  "scripts": {
+    "build": "tsc -p . & sass src/scss/index.scss dist/css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veltinator/bootstrap-tag-input.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veltinator/bootstrap-tag-input/issues"
+  },
+  "homepage": "https://github.com/Veltinator/bootstrap-tag-input#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.2",
+    "@types/jquery": "^3.3.35",
+    "sass": "^1.26.5",
+    "typescript": "^3.8.3"
+  }
+}

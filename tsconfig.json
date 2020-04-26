@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist/js",
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/ts",
+  ],
+}
