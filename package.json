@@ -4,12 +4,22 @@
   "description": "",
   "main": "dist/js/index.js",
   "types": "dist/js",
+  "keywords": [
+    "bootstrap",
+    "tags",
+    "tag",
+    "input",
+    "input field"
+  ],
   "scripts": {
     "build": "tsc -p . & sass src/scss/index.scss dist/css/index.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Veltinator/bootstrap-tag-input.git"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   },
   "license": "ISC",
   "bugs": {
